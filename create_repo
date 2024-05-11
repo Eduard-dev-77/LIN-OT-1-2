@@ -1,0 +1,29 @@
+echo "# LIN-OT-1-2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Eduard-dev-77/LIN-OT-1-2.git
+git push -u origin main
+
+fedor@finic:~/test_vm_ubuntu$ git init
+Using 'master' as the name for the initial branch. This default branch name
+is subject to change. To configure the initial branch name to use in all
+of your new repositories, which will suppress this warning, call:
+подсказка: 
+git config --global init.defaultBranch <name>
+подсказка: 
+Names commonly chosen instead of 'master' are 'main', 'trunk' and
+'development'. The just-created branch can be renamed via this command:
+подсказка: 
+git branch -m <name>
+Инициализирован пустой репозиторий Git в /home/fedor/test_vm_ubuntu/.git/
+
+
+echo "# LIN-OT-1-2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Eduard-dev-77/LIN-OT-1-2.git
+git push -u origin main
